@@ -1,6 +1,6 @@
 # Youtube Fetch Api
 An API to fetch latest videos from youtube sorted in reverse chronological order of their publishing date-time from YouTube for a given tag/search query in a paginated response
-I have used Django for the given assignment. I have used cron jobs method to fetch API for GET request and given below refernce for what is cron-jobs, it is django based library for interacting with API.
+I have used Django for the given assignment. Django has advantage because It provides the dashboard and filter options to interacting API.I have used cron jobs method to fetch API for GET request and given below refernce for what is cron-jobs, it is django based library for interacting with API.
 Used Cron Jobs [django_cron](https://django-cron.readthedocs.io/en/latest/introduction.html) to fetch videos after every 10 minutes using [Youtube Data Api](https://developers.google.com/youtube/v3/docs/search/list) and save it to the db
 
 ## How I made it 
